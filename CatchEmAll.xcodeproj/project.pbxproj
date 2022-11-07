@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		9FF76732290D6364003E841A /* CatchEmAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76731290D6364003E841A /* CatchEmAllApp.swift */; };
-		9FF76734290D6364003E841A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76733290D6364003E841A /* ContentView.swift */; };
+		9FF76734290D6364003E841A /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76733290D6364003E841A /* CreaturesListView.swift */; };
 		9FF76736290D6365003E841A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF76735290D6365003E841A /* Assets.xcassets */; };
 		9FF76739290D6365003E841A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF76738290D6365003E841A /* Preview Assets.xcassets */; };
+		9FF76740290D696E003E841A /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7673F290D696E003E841A /* CreaturesViewModel.swift */; };
+		9FF76742290D7E4B003E841A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76741290D7E4B003E841A /* DetailView.swift */; };
+		9FF76744290D8302003E841A /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76743290D8302003E841A /* Creature.swift */; };
+		9FF76746290D875A003E841A /* CreatureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76745290D875A003E841A /* CreatureDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9FF7672E290D6364003E841A /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF76731290D6364003E841A /* CatchEmAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllApp.swift; sourceTree = "<group>"; };
-		9FF76733290D6364003E841A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FF76733290D6364003E841A /* CreaturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesListView.swift; sourceTree = "<group>"; };
 		9FF76735290D6365003E841A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF76738290D6365003E841A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FF7673F290D696E003E841A /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
+		9FF76741290D7E4B003E841A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9FF76743290D8302003E841A /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		9FF76745290D875A003E841A /* CreatureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				9FF76731290D6364003E841A /* CatchEmAllApp.swift */,
-				9FF76733290D6364003E841A /* ContentView.swift */,
+				9FF76743290D8302003E841A /* Creature.swift */,
+				9FF7673F290D696E003E841A /* CreaturesViewModel.swift */,
+				9FF76745290D875A003E841A /* CreatureDetailViewModel.swift */,
+				9FF76733290D6364003E841A /* CreaturesListView.swift */,
+				9FF76741290D7E4B003E841A /* DetailView.swift */,
 				9FF76735290D6365003E841A /* Assets.xcassets */,
 				9FF76737290D6365003E841A /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF76734290D6364003E841A /* ContentView.swift in Sources */,
+				9FF76740290D696E003E841A /* CreaturesViewModel.swift in Sources */,
+				9FF76742290D7E4B003E841A /* DetailView.swift in Sources */,
+				9FF76734290D6364003E841A /* CreaturesListView.swift in Sources */,
+				9FF76744290D8302003E841A /* Creature.swift in Sources */,
+				9FF76746290D875A003E841A /* CreatureDetailViewModel.swift in Sources */,
 				9FF76732290D6364003E841A /* CatchEmAllApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
